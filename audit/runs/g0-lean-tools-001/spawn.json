@@ -1,0 +1,8 @@
+{
+  "threadId": "thr_stqvgbz8fw",
+  "parentThreadId": "thr_n3enf3vjcu",
+  "status": "starting",
+  "inputCommit": "b6191d50762c6ede6e9f5cf2f77d0fc6b46d80b6",
+  "modelRequested": "cpa/gpt-6-astra",
+  "reasoningRequested": "high"
+}

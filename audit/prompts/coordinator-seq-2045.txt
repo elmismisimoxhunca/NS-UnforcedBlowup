@@ -1,0 +1,3 @@
+[bb message from thread:thr_stqvgbz8fw]
+
+Lean tools identity cpa/gpt-6-astra / thr_stqvgbz8fw. Frozen hash passes. Comparator pinned source requires isolated Lean v4.34.0-rc2; exact exporter v4.32.2 branch found at 86e4a339507466921dc8c5417c8cb1de1ce7df60. AF_UNIX restriction verified: socket creation errno97 under systemd-run --user. Potential external blocker: current landrun main 811cfff51ceaf3d9843708aa6d22e9b84ccac8b4 defaults strict ABI9; host syscall reports Landlock ABI8. Will build strict and capture actual failure; will not add --best-effort or weaken sandbox. No coordinator checkout touched.

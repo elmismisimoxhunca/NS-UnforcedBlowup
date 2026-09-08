@@ -30,3 +30,9 @@ Owner: BB thread `thr_n3enf3vjcu`; actual model `cpa/gpt-6-astra`. Entries below
 13. Signed bootstrap commit `1cf97c4fdc318e26f58bb4ad2054acb40de827cd` locally verified and pushed to public main using Notebook SSH agent. Signing configured repo-locally; private key remained on Notebook.
 14. Created requested separate analysis VM `ns-analysis-01` (e2-standard-4, 4 vCPU/16GB,80GB pd-balanced,us-central1-b), no service account, Secure Boot, same IAP-only SSH network. Running; BB/mesh enrollment pending.
 15. Pre-registered two strictly Phase0 assignments with exact prompts/hashes and separate planned worktrees, before spawning. Analysis work temporarily uses Notebook until the small VM is enrolled.
+
+16. Spawned registered workers after signed assignment commit b6191d5: thr_stqvgbz8fw (Lean tooling,C4) and thr_p4k3euesm2 (policy/inheritance,Notebook). Requested cpa/gpt-6-astra/high, separate worktrees; spawn records saved. No Phase1 assignment.
+17. Verified audit checker positive case and rejection of a modified temporary copy; original frozen hash unchanged. Evidence audit/integrity-test.json. GitHub Audit integrity workflows for1cf97c4 and b6191d5 completed success (run34256356785 and34256699242).
+18. Imported coordinator continuation prompts from BB invocation records, with exact hashes and credential-pattern fail-closed screening; retained raw history privately, not in Git. Corrected ledger table formatting and reconciled worker thread IDs.
+19. Small VM runtime bootstrap completed Node24.20.0/Tailscale1.102.3 with official checksums; mesh is still NeedsLogin. User enrollment link provided privately in chat, excluded from public source. Main Euler build and agents continue independently.
+20. Planned sanitized reusable image workflow; no snapshot/image created and no live VM restart performed.
