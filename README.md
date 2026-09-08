@@ -2,7 +2,7 @@
 
 **Research program, not a proved result. Phase 0 is in progress.**
 
-This is the public repository supplied by the human owner for the `unforced-blowup` program. The current scope is infrastructure only. No Phase 1 analysis, unforced Euler proof, Navier–Stokes result, Clay claim, or release is authorized by a green upstream build.
+This is the public repository supplied by Sebastián Rodrigo for the `unforced-blowup` program. The current scope is infrastructure only. No Phase 1 analysis, unforced Euler proof, Navier–Stokes result, Clay claim, or release is authorized by a green upstream build.
 
 ## Targets and credit
 
