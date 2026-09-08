@@ -26,3 +26,7 @@ Owner: BB thread `thr_n3enf3vjcu`; actual model `cpa/gpt-6-astra`. Entries below
 - Human `Challenge_NS.lean` remains absent.
 - Build and Comparator outputs are pending; no G0 or unforced theorem success claimed.
 - No research subagents have yet run. New assignments must be registered before execution.
+
+13. Signed bootstrap commit `1cf97c4fdc318e26f58bb4ad2054acb40de827cd` locally verified and pushed to public main using Notebook SSH agent. Signing configured repo-locally; private key remained on Notebook.
+14. Created requested separate analysis VM `ns-analysis-01` (e2-standard-4, 4 vCPU/16GB,80GB pd-balanced,us-central1-b), no service account, Secure Boot, same IAP-only SSH network. Running; BB/mesh enrollment pending.
+15. Pre-registered two strictly Phase0 assignments with exact prompts/hashes and separate planned worktrees, before spawning. Analysis work temporarily uses Notebook until the small VM is enrolled.

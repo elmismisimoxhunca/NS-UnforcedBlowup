@@ -11,3 +11,7 @@ One row per recorded model invocation. Exact task prompts are saved and SHA-256 
 Subagents must be registered with an assignment, input revision, worktree, exact prompt hash, and file allowlist before spawning. Each writes its own ACTIONS.md. The coordinator reconciles agent-reported claims against artifacts before acceptance. No subagents have yet been launched for this research project.
 
 The inherited initial LICENSE commit predates this audit and is not retrospectively represented as signed. Public Git commit timestamps/signatures attest repository history, not mathematical correctness or discovery priority.
+
+| g0-lean-tools-001 | 2026-09-08T17:22:17.233206+00:00 | cpa/gpt-6-astra | `26f1ab49bae660e74f7b161d4f77398a87a2a219e79d1d38a88f8d0a43409710` | assigned, not started; [prompt](audit/prompts/g0-lean-tools-001.txt); [actions](audit/runs/g0-lean-tools-001/ACTIONS.md) |
+
+| g0-policy-audit-001 | 2026-09-08T17:22:17.234309+00:00 | cpa/gpt-6-astra | `3524c265bc861284faf8e32de07a4eabab77e3fb9f5aac4b4d90f6e4ea272873` | assigned, not started; [prompt](audit/prompts/g0-policy-audit-001.txt); [actions](audit/runs/g0-policy-audit-001/ACTIONS.md) |
