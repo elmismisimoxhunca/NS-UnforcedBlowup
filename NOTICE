@@ -1,10 +1,7 @@
-Unforced blow-up via the layered route — infrastructure and research program
+Third-party attribution
 
-Program credit: Diego Córdoba and Luis Martínez-Zoroa.
-Upstream Euler/Boussinesq/IPM credit: Alpöge–Buckmaster(–Coiculescu), with the exact author list governed by each cited work.
+Public source: https://github.com/tristanbuckmaster/fluid_lean, pinned in upstream.lock.json. Mathematical program credit: Diego Córdoba and Luis Martínez-Zoroa. Euler/Boussinesq/IPM attribution: Alpöge–Buckmaster(–Coiculescu), according to the individual works.
 
-The public source is https://github.com/tristanbuckmaster/fluid_lean, pinned in upstream.lock.json. The copied upstream Euler trusted statement and the definitions in the human-supplied unforced-Euler statement derive from its euler-blowup/Challenge.lean. These upstream and derived portions retain Apache-2.0 terms; see licenses/Apache-2.0.txt and licenses/fluid_lean-euler-NOTICE.txt. The original root MIT LICENSE remains applicable to this repository's original material; it does not relicense upstream Apache material or override third-party notices.
+The upstream Lean formalization is Apache-2.0. Its license and Euler NOTICE are retained under licenses/. Those terms are not replaced by this repository's original MIT LICENSE. The upstream README discloses Claude (Anthropic) authorship under Levent Alpöge's direction; this is attribution, not endorsement of this repository.
 
-Modification notice: the human-supplied target removes SmoothForce, fixes the force to zero in the theorem's ClassicalEuler and InLipschitzClass3 clauses, removes the force existential, and renames the theorem. The exact diff is retained separately. The target proof remains a placeholder. No claim of a new proof is made.
-
-Upstream authorship disclosure, per its README: the Lean code was written by Claude (Anthropic) under Levent Alpöge's direction. New infrastructure is AI-assisted through BB; see LEDGER.md for actual models, prompts, attempts, and outcomes. Upstream authors are not represented as endorsing this project.
+Infrastructure changes here are AI-assisted through BB. The public ledger records task hashes and model metadata; detailed records remain local. No upstream proof or authorship is claimed as ours.

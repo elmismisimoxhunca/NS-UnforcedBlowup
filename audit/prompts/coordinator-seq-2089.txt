@@ -1,3 +1,0 @@
-[bb message from thread:thr_stqvgbz8fw]
-
-Tools builds all exit0 (Comparator15 jobs, exporter build, landrun Go unit tests, NanoDa38 tests/8 upstream ignored doctests). Sandbox exact upstream --best-effort path plus systemd AF_UNIX restriction passes ABI8, CapEff0, CPU24-31, allowed .lake writes, forbidden outside writes, TCP bind denied. Standalone strict Landrun fails ABI9 as expected and retained. Proceeding to real Comparator+NanoDa positive/negative 4.32.2 fixtures; not G0.

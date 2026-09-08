@@ -12,3 +12,17 @@ __pycache__/
 *.pem
 *.key
 audit/private/
+
+# Local-only material: never publish plans, task text, target files or intent-bearing notes.
+/audit/
+/docs/
+/notes/
+/statements/
+/.bb/
+/private/
+/plans/
+/scripts/check-audit.py
+/scripts/import-bb-invocations.py
+**/*[Pp][Ll][Aa][Nn]*
+**/*[Pp][Rr][Oo][Mm][Pp][Tt]*
+**/Challenge*.lean

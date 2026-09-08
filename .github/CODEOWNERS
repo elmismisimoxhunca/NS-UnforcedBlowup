@@ -1,3 +1,2 @@
-# Human review required; server-side branch protection must also be configured.
-/statements/ @elmismisimoxhunca
-/.github/CODEOWNERS @elmismisimoxhunca
+# Owner review policy; server-side branch protection is configured separately.
+* @elmismisimoxhunca

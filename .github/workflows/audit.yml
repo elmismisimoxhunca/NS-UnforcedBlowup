@@ -1,10 +1,10 @@
-name: Audit integrity
+name: Public tree guard
 on: [push, pull_request]
 permissions:
   contents: read
 jobs:
-  audit:
+  publication-boundary:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
-      - run: python3 scripts/check-audit.py
+      - run: python3 scripts/check-public-tree.py
