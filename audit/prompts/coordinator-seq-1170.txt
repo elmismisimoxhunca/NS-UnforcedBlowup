@@ -1,0 +1,1 @@
+Now we will start with this ambitious project. Repo is at: https://github.com/elmismisimoxhunca/NS-UnforcedBlowup , SSH GITHUB keyring is on the NotebookXhunca machine. Some rules: 1: keep a claims ledger of every thing each subagent does, so we are fully auditable. 2: Finish phase zero, then report for me to give you the instructions on how to approach phase 1.

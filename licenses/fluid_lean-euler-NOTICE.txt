@@ -1,0 +1,15 @@
+Finite-time blow-up for the three-dimensional incompressible Euler equations with smooth force — Lean 4 formalisation
+Copyright 2026 Anthropic, PBC
+
+This work is distributed under the terms of the Apache License, Version 2.0 (refer to the LICENSE file).
+
+The Lean library under vendor/cm24-r2/ was developed by this project as a self-contained library, on top of
+Mathlib, and is included here under vendor/ as a build arrangement; no code from any other formalisation is
+included in it.
+
+This work has dependencies that it does not itself contain: Lean 4 (https://github.com/leanprover/lean4) and
+mathlib4 (both under the Apache License 2.0), together with mathlib4's standard dependency set, which the build
+tool retrieves from their public repositories at the revisions recorded in lake-manifest.json. Of these,
+batteries, aesop, Qq, ProofWidgets4, import-graph, LeanSearchClient and plausible are available under the Apache
+License, Version 2.0, while Cli (leanprover/lean4-cli) is available under the MIT License. This repository
+includes none of these dependencies.

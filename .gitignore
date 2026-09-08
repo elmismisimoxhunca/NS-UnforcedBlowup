@@ -1,0 +1,14 @@
+.lake/
+.elan/
+.worktrees/
+*.olean
+*.ilean
+*.olean.private
+*.olean.server
+__pycache__/
+.env
+.env.*
+!*.example
+*.pem
+*.key
+audit/private/

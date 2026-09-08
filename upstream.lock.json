@@ -1,0 +1,19 @@
+{
+  "fluid_lean": {
+    "url": "https://github.com/tristanbuckmaster/fluid_lean",
+    "commit": "d0124689230b58b4f86e7b90ac59de06404b3b6b",
+    "project": "euler-blowup"
+  },
+  "lean": "leanprover/lean4:v4.32.2",
+  "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997",
+  "comparator": {
+    "url": "https://github.com/leanprover/comparator",
+    "commit": "2312244ac716564a61cc0bf4e107d9abf1757a61"
+  },
+  "source_sha256": {
+    "lean-toolchain": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+    "lake-manifest.json": "c52282c440b9c4798627f7a8b3c346bd42912a60257f44ddca29301c331796b7",
+    "Challenge.lean": "470a2468cc22abe02b56fe77061ef379150363da4cb6af2e66bcd66cb6f07cc5",
+    "comparator.json": "9dfc55a88c6a5b19ded16a18df26a9f9a7a7aaf8c4996191efbbe8cae7f8bab4"
+  }
+}
