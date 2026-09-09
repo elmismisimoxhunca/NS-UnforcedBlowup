@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-09-08T23:02:43.313469+00:00",
+  "source_revision": "8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "dependencies": {
+    "Comparator": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+    "mathlib": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+    "lean4export": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+    "plausible": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+    "LeanSearchClient": "ba67e212be1197b84c1f1f6299488a10a3002713",
+    "importGraph": "d8823026ac7ef130c253089d95685f9877b95323",
+    "proofwidgets": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+    "aesop": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+    "Qq": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+    "batteries": "d54dddc581e08be364c278052863524bff7a99a9",
+    "Cli": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af"
+  },
+  "build": {
+    "exit": 0,
+    "cache_exit": 0,
+    "jobs": 11251,
+    "log_sha256": "19b2bd7f24ac8b6c7a21666b957781673d3c1761f1a0c28246208d86e3f88aa2"
+  },
+  "checks": {
+    "Euler": {
+      "theorems": [
+        "Euler.euler_breakdown_R3",
+        "Euler.exists_compact_smooth_euler_singularity"
+      ],
+      "exit": 0,
+      "nanoda": "accepted",
+      "lean_kernel": "accepted",
+      "integrity_before": 0,
+      "integrity_after": 0,
+      "sandbox_probe": "passed",
+      "log_sha256": "e14babb59e0c79587a23c01b015391968e12fcedab250aa128152933a2f543c4"
+    },
+    "NavierStokes": {
+      "theorems": [
+        "NavierStokes.Comparator.navier_stokes_breakdown_R3",
+        "NavierStokes.Comparator.navier_stokes_breakdown_periodic"
+      ],
+      "exit": 0,
+      "nanoda": "accepted",
+      "lean_kernel": "accepted",
+      "integrity_before": 0,
+      "integrity_after": 0,
+      "sandbox_probe": "passed",
+      "log_sha256": "340f309d603b8d0cbad3ff52cd85829c7e632ea2a421ab20c417057ce6c0260a"
+    }
+  },
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "solution_axioms": {
+    "Euler.euler_breakdown_R3": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Euler.exists_compact_smooth_euler_singularity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NavierStokes.Comparator.navier_stokes_breakdown_R3": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NavierStokes.Comparator.navier_stokes_breakdown_periodic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "integrity": {
+    "source_and_config_hashes": "pass",
+    "dependency_revisions": "pass",
+    "prepared_binary_hashes": "pass",
+    "unmodified_tracked_source": "pass"
+  },
+  "fixtures": {
+    "positive": 0,
+    "wrong_type": 1,
+    "sorry": 1
+  },
+  "evidence_policy": "Raw logs and failed attempts retained privately; digests identify local records, not public reproducibility or signature attestation. This is a recorded run, not a CI replay.",
+  "limitations": [
+    "Checks cover the four selected published declarations against their own reference statements.",
+    "The Navier-Stokes declarations quantify external forcing.",
+    "No equivalence to a different theorem or mathematical adequacy/Clay-prize decision is established.",
+    "Trusted source/cache/compiler, reference definitions, kernels, OS and hardware remain assumptions.",
+    "Initial nonterminal fixture harness timed out; actual-PTY retries produced the recorded 0/1/1 outcomes."
+  ]
+}

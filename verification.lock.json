@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "source": {
+    "repository": "https://github.com/openai/NavierStokesAndEuler.git",
+    "revision": "8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
+    "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+    "lean_commit": "6a10ac8c22beadecabdbb0919c2b50214762f91d",
+    "files": {
+      "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+      "lakefile.toml": "97b2804da5b9a2cd0aaf44ce42b7c39e9947beff9d2ac01a11e0d3d867af1c09",
+      "lake-manifest.json": "5ec1dc8e009008d0efb9601cd38f6ba54e753fd538b0e5f8c3e6c5ec72ee1e09",
+      "ComparatorChallenges/Euler.json": "56bc185a931f68d9a0f0265a3c00cb12771dccc85384eaf6546b37844b8adc84",
+      "ComparatorChallenges/NavierStokes.json": "7610ecead7b390d80ff7f4229a3ff8f18d630e046f7ad1de4f92c7e8e76845b8",
+      "ComparatorChallenges/Euler.lean": "b11e9bafc220c8126142a9c9281cfeab4872d8f74a7d4899fed206f7f6e1d4f7",
+      "ComparatorChallenges/NavierStokes.lean": "0cd193b8d5cbd0266e6e2f72e68dd5abcdcf2430ebd435dd9289737e9aa7da61"
+    },
+    "dependencies": {
+      "Comparator": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "mathlib": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "lean4export": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "plausible": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "LeanSearchClient": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "importGraph": "d8823026ac7ef130c253089d95685f9877b95323",
+      "proofwidgets": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "aesop": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "Qq": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "batteries": "d54dddc581e08be364c278052863524bff7a99a9",
+      "Cli": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af"
+    }
+  },
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "checks": {
+    "Euler": {
+      "config": "ComparatorChallenges/Euler.json",
+      "challenge_module": "ComparatorChallenges.Euler",
+      "solution_module": "Euler.Solution",
+      "theorems": [
+        "Euler.euler_breakdown_R3",
+        "Euler.exists_compact_smooth_euler_singularity"
+      ]
+    },
+    "NavierStokes": {
+      "config": "ComparatorChallenges/NavierStokes.json",
+      "challenge_module": "ComparatorChallenges.NavierStokes",
+      "solution_module": "NavierStokes.ComparatorSolution",
+      "theorems": [
+        "NavierStokes.Comparator.navier_stokes_breakdown_R3",
+        "NavierStokes.Comparator.navier_stokes_breakdown_periodic"
+      ]
+    }
+  },
+  "tools": {
+    "landrun": {
+      "repository": "https://github.com/Zouuup/landrun.git",
+      "revision": "811cfff51ceaf3d9843708aa6d22e9b84ccac8b4",
+      "binary": "landrun",
+      "sha256": "074f0db14449c22dba8ee1b2ffc9c2244a5da7178730541c9bf818377f0a39ba",
+      "build_tool": "go1.27.1"
+    },
+    "nanoda_lib": {
+      "repository": "https://github.com/ammkrn/nanoda_lib.git",
+      "revision": "05055695879dfebb6628a67da88ceca6cd6b0421",
+      "binary": "target/release/nanoda_bin",
+      "sha256": "69a58164d467c9116a23ea5bcfedc47ad8822f5122b1b01ffa0d172ef3781023",
+      "build_tool": "rustc 1.93.1"
+    }
+  },
+  "platform": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "minimum_landlock_abi": 8,
+    "requires_unprivileged_systemd_user_manager": true,
+    "requires_af_unix_denial": true
+  },
+  "binary_policy": "Reference Landrun/NanoDa binary hashes are exact acceptance prerequisites, not a claim that every compiler/path reproduces identical bytes. Review differing rebuilds; do not bypass mismatches."
+}

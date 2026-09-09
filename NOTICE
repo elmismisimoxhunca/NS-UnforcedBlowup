@@ -1,7 +1,19 @@
 Third-party attribution
 
-Public source: https://github.com/tristanbuckmaster/fluid_lean, pinned in upstream.lock.json. Mathematical program credit: Diego Córdoba and Luis Martínez-Zoroa. Euler/Boussinesq/IPM attribution: Alpöge–Buckmaster(–Coiculescu), according to the individual works.
+Current verification target: https://github.com/openai/NavierStokesAndEuler,
+revision 8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538, pinned in
+verification.lock.json. The published formalization is Apache-2.0. Its trusted
+reference files credit The Formal Conjectures Authors and describe their source
+adaptations. Proof sources and their original notices are downloaded into ignored
+local checkouts, not relicensed or presented as this repository's original work.
 
-The upstream Lean formalization is Apache-2.0. Its license and Euler NOTICE are retained under licenses/. Those terms are not replaced by this repository's original MIT LICENSE. The upstream README discloses Claude (Anthropic) authorship under Levent Alpöge's direction; this is attribution, not endorsement of this repository.
+Independent checking uses Lean, Mathlib, leanprover/comparator,
+leanprover/lean4export, Zouuup/landrun and ammkrn/nanoda_lib. Their exact source
+revisions and applicable upstream terms remain with those projects. Verification
+here does not imply their authors' endorsement or an institutional/prize decision.
 
-Infrastructure changes here are AI-assisted through BB. The public ledger records task hashes and model metadata; detailed records remain local. No upstream proof or authorship is claimed as ours.
+The Apache-2.0 license is retained under licenses/. Those terms are not replaced
+by this repository's original MIT LICENSE.
+
+Verification infrastructure here is AI-assisted. Detailed execution records remain
+local. No upstream proof or authorship is claimed as ours.
